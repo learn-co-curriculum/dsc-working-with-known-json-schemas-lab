@@ -13,11 +13,11 @@ You will be able to:
 ## Reading a JSON Schema
 
 Here's the JSON schema provided for a section of the NY Times API:
-<img src="images/nytimes_movie_schema.png" width=500>
+<img src="images/nytimes_movie_schema.png" width="350">
 
 or a fully expanded view:
 
-<img src="images/nytimes_movie_schema_detailed.png" width=500>
+<img src="images/nytimes_movie_schema_detailed.png" width="530">
 
 You can see this yourself here:
 https://developer.nytimes.com/movie_reviews_v2.json#/Documentation/GET/critics/%7Bresource-type%7D.json
