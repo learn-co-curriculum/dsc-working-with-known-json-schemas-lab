@@ -134,7 +134,7 @@ df.head()
     </tr>
     <tr>
       <th>3</th>
-      <td>A. O. SCOTT</td>
+      <td>A.O. SCOTT</td>
       <td>0</td>
       <td>2018-10-16 16:08:03</td>
       <td>The Price of Everything</td>
@@ -177,7 +177,7 @@ df.byline.nunique()
 
 
 
-    8
+    7
 
 
 
@@ -273,7 +273,7 @@ df.head()
     </tr>
     <tr>
       <th>3</th>
-      <td>A. O. SCOTT</td>
+      <td>A.O. SCOTT</td>
       <td>0</td>
       <td>2018-10-16 16:08:03</td>
       <td>The Price of Everything</td>
