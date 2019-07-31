@@ -10,12 +10,6 @@ You will be able to:
 * Extract data from known json schemas
 * Write data to predefined JSON schemas
 
-
-```python
-# __SOLUTION__ 
-#Your code here
-```
-
 ## Reading a JSON Schema
 
 Here's the JSON schema provided for a section of the NY Times API:
@@ -27,13 +21,23 @@ or a fully expanded view:
 
 You can more about the documentation [here](https://developer.nytimes.com/docs/movie-reviews-api/1/routes/reviews/%7Btype%7D.json/get).
 
+You can see that the master structure is a dictionary and has a key named 'response'. This is also a dictionary and has two keys: 'data' and 'meta'. As you continue to examine the schema hierarchy, you'll notice the vast majority in this case are dictionaries. 
+
+## Loading the Data File
+
+Start by importing the json file. The sample response from the api is stored in a file **ny_times_movies.json**
+
 
 ```python
-# __SOLUTION__ 
-import json
+#Your code here
 ```
 
-You can see that the master structure is a dictionary and has a key named 'response'. This is also a dictionary and has two keys: 'data' and 'meta'. As you continue to examine the schema hierarchy, you'll notice the vast majority in this case are dictionaries. 
+
+```python
+# __SOLUTION__
+#Your code here
+import json
+```
 
 
 ```python
@@ -42,9 +46,9 @@ f = open('ny_times_movies.json', 'r')
 data = json.load(f)
 ```
 
-## Loading the Data File
+## Loading Specific Data
 
-Start by importing the json file. The sample response from the api is stored in a file **ny_times_movies.json**
+Create a DataFrame of the major data container within the json file, listed under the 'results' heading in the schema above.
 
 
 ```python
@@ -171,9 +175,7 @@ df.head()
 
 
 
-## Loading Specific Data
-
-Create a DataFrame of the major data container within the json file, listed under the 'results' heading in the schema above.
+## How many unique critics are there?
 
 
 ```python
@@ -194,7 +196,7 @@ df.byline.nunique()
 
 
 
-## How many unique critics are there?
+## Create a new column for the review's url. Title the column 'review_url'
 
 
 ```python
@@ -326,7 +328,7 @@ df.head()
 
 
 
-## Create a new column for the review's url. Title the column 'review_url'
+## How many results are in the file?
 
 
 ```python
@@ -349,13 +351,6 @@ data['num_results']
     20
 
 
-
-## How many results are in the file?
-
-
-```python
-#Your code here
-```
 
 ## Summary
 Well done! Here you continued to gather practice extracting data from JSON files and transforming them into our standard tool of Pandas DataFrames.
