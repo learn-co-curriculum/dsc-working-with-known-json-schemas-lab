@@ -13,11 +13,11 @@ You will be able to:
 ## Reading a JSON Schema
 
 Here's the JSON schema provided for a section of the NY Times API:
-<img src="images/nytimes_movie_schema.png" width="350">
+<img src="images/nytimes_movie_schema.png" width=500>
 
 or a fully expanded view:
 
-<img src="images/nytimes_movie_schema_detailed.png" width="530">
+<img src="images/nytimes_movie_schema_detailed.png" width=500>
 
 You can more about the documentation [here](https://developer.nytimes.com/docs/movie-reviews-api/1/routes/reviews/%7Btype%7D.json/get).
 
@@ -30,10 +30,6 @@ Start by importing the json file. The sample response from the api is stored in 
 
 ```python
 #Your code here
-```
-
-
-```python
 import json
 ```
 
