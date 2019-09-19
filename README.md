@@ -2,12 +2,12 @@
 # Working with Known JSON Schemas - Lab
 
 ## Introduction
-In this lab you'll practice working with json files whose schema you know beforehand.
+In this lab, you'll practice working with JSON files whose schema you know beforehand.
 
 ## Objectives
 You will be able to:
 * Read JSON Documentation Schemas and translate into code
-* Extract data from known json schemas
+* Extract data from known JSON schemas
 * Write data to predefined JSON schemas
 
 ## Reading a JSON Schema
@@ -21,7 +21,7 @@ or a fully expanded view:
 
 You can more about the documentation [here](https://developer.nytimes.com/docs/movie-reviews-api/1/routes/reviews/%7Btype%7D.json/get).
 
-You can see that the master structure is a dictionary and has a key named 'response'. This is also a dictionary and has two keys: 'data' and 'meta'. As you continue to examine the schema hierarchy, you'll notice the vast majority in this case are dictionaries. 
+You can see that the master structure is a dictionary and has a key named 'response'. This is also a dictionary and has two keys: 'data' and 'meta'. As you continue to examine the schema hierarchy, you'll notice the vast majority, in this case, are dictionaries. 
 
 ## Loading the Data File
 
