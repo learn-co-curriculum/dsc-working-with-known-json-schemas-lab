@@ -6,8 +6,7 @@ In this lab, you'll practice working with JSON files whose schema you know befor
 
 ## Objectives
 You will be able to:
-* Read JSON Documentation Schemas and translate into code
-* Extract data from known JSON schemas
+* Use the JSON module to load and parse JSON documents
 * Write data to predefined JSON schemas
 
 ## Reading a JSON Schema
