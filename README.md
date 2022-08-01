@@ -4,8 +4,10 @@
 In this lab, you'll practice working with JSON files whose schema you know beforehand.
 
 ## Objectives
+
 You will be able to:
-* Use the JSON module to load and parse JSON documents
+
+* Use the `json` module to load and parse JSON documents
 * Extract data using predefined JSON schemas
 * Convert JSON to a pandas dataframe
 
