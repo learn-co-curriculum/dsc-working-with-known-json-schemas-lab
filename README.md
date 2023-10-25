@@ -22,7 +22,7 @@ or a fully expanded view:
 
 You can more about the documentation [here](https://developer.nytimes.com/docs/movie-reviews-api/1/routes/reviews/%7Btype%7D.json/get).
 
-Note that **this is a different schema than the schema used in the previous lesson**, although both come from the New York Times.
+
 
 ## Loading the JSON Data
 
@@ -135,4 +135,4 @@ assert review_urls[6] == 'http://www.nytimes.com/2018/10/11/movies/barbara-revie
 ```
 
 ## Summary
-Well done! In this lab you continued to practice extracting and transforming data from JSON files with known schemas.
+In this lab you practiced extracting and transforming data from JSON files with known schemas.
